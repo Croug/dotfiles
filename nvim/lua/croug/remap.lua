@@ -21,3 +21,15 @@ vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<C-J>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
+
+vim.keymap.set("n", "<leader>hs", "<cmd>spl<CR>")
+vim.keymap.set("n", "<leader>vs", "<cmd>vspl<CR>")
+
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
+vim.keymap.set("n", "<leader>tb", "<cmd>spl term://bash<CR><C-w>J99<C-w>-14<C-w>+")
+vim.keymap.set("n", "<leader>tp", "<cmd>spl term://powershell<CR><C-w>J99<C-w>-14<C-w>+")
+
+vim.keymap.set("n", "<leader>q", "<cmd>q<CR>")
+vim.keymap.set("n", "<leader>w", "<cmd>w<CR>")
+vim.keymap.set("n", "<leader>so", "<cmd>so<CR>")
+vim.keymap.set("n", "<leader>wq", "<cmd>wq<CR>")

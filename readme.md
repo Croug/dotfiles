@@ -45,3 +45,12 @@ nvim config requires [packer](https://github.com/wbthomason/packer.nvim)
 |                | `<C-j>`         | prev quickfix option            |
 |                | `<leader>k`     | next location in quickfix list  |
 |                | `<leader>j`     | prev location in quickfix list  |
+| **Terminal**   |                 |                                 |
+|                | `(terminal)<Esc>` | exit terminal mode             |
+|                | `<leader>tb`    | open bash in horizontal split   |
+|                | `<leader>tp`    | open powershell in horizontal split |
+| **Misc**       |                 |                                 |
+|                | `<leader>q`     | close window                    |
+|                | `<leader>w`     | save file                       |
+|                | `<leader>so`    | source file                     |
+|                | `<leader>wq`    | save file and close window      |
