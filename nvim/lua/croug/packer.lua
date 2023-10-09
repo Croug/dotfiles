@@ -21,8 +21,8 @@ return require('packer').startup(function(use)
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('ThePrimeagen/harpoon')
   use('mbbill/undotree')
-  use('tpope/vim-fugitive')
   use('nvim-tree/nvim-web-devicons')
+  use('tpope/vim-fugitive')
   use {
     'nvim-tree/nvim-tree.lua',
     requires = { 'nvim-tree/nvim-web-devicons' }
@@ -52,4 +52,5 @@ return require('packer').startup(function(use)
   }
 
   use('github/copilot.vim')
+  use('windwp/nvim-autopairs')
 end)
